@@ -1,0 +1,7 @@
+kalo ada error, mungkin saya lupa
+server databasennya diganti jadi "localhost"
+
+mungkin di koneksinya sekarang pake "localhost:3307" atau "127.0.0.1:3307"
+jadi diganti aja, soalnya dilaptop saya make port lain.
+
+makasih
