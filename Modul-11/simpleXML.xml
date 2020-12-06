@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Alexander</awal>
+        <akhir>Diva</akhir>
+    </nama>
+    <jenisKelamin>Laki-laki</jenisKelamin>
+    <alamat>
+        <kecamatan>Jati Agung</kecamatan>
+        <kabupaten>Lampung Selatan</kabupaten>
+    </alamat>
+    <orangTua>
+        <ayah>P.Bangun</ayah>
+        <ibu>A.Ginting</ibu>
+    </orangTua>
+    <saudara>
+        <kakakPerempuan>M.Bangun, M.Bangun</kakakPerempuan>
+        <adikLaki-laki>S.Bangun</adikLaki-laki>
+    </saudara>
+    <sosialMedia>
+        <facebook>Alexander Diva</facebook>
+        <instagram>alexanderdiv</instagram>
+    </sosialMedia>
+</dataDiri>

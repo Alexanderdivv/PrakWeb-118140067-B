@@ -1,0 +1,25 @@
+{
+    "dataDiri" : {
+        "nama" : {
+                    "awal" : "Alexander",
+                    "akhir" : "Diva"
+        },
+        "jenisKelamin" : "Laki-laki",
+        "alamat" : {
+            "kecamatan" : "Jati Agung",
+            "kabupaten" : "Lampung Selatan"
+        },
+        "orangTua" : {
+            "ayah" : "P.Bangun",
+            "ibu" : "A.Ginting"
+        },
+        "saudara" : {
+            "kakakPerempuan" : "M.Bangun, M.Bangun",
+            "adikLaki-laki" : "S.Bangun"
+        },
+        "sosialMedia" : {
+            "facebook" : "Alexander Diva",
+            "instagram" : "alexanderdiv"
+        }
+    }
+}
