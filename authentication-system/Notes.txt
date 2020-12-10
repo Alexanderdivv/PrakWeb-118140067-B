@@ -1,0 +1,8 @@
+settingan utama di codeigniter :
+1. application-> config -> autoload.php 
+setting library sama helper
+2. C:\xampp\htdocs\login-codeigniter\application\config\config.php
+untuk default url 
+3. database.php
+4. routes.php
+default awal tujuaannya 
