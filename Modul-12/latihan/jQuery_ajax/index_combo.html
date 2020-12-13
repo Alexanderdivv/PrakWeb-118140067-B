@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<label> Pilih id_jur :</label>
+<select name="id_jur" id="id_jur">
+	<option value="JTIF001">Teknik Informatika</option>
+	<option value="JTIF002">Teknik Elektro</option>
+	<option value="JTIF003">Fisika</option>
+	<option value="JTIF004">Teknik baru</option>
+</select>
+<hr>
+<div id="tampil_data"></div>
+<script>
+		$(document).ready(function(){
+			$('#tampil_data').load("tampil_combo.php");
+			$('#id_jur').bind('change',function(){
+				var id_jur = $('#id_jur').val();
+			$.ajax({
+				method	: 'POST',
+				url	: "tampil_combo.php",
+				data: {id_jur:id_jur},
+				success	: function(data){
+					$('#tampil_data').html(data);
+				}
+			});
+			});
+		});
+	</script>
+
+</body>
+</html>
